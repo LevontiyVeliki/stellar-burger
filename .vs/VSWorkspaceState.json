@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cypress",
+    "\\cypress\\support",
+    "\\src",
+    "\\src\\components",
+    "\\src\\images",
+    "\\src\\pages",
+    "\\src\\services",
+    "\\src\\stories",
+    "\\src\\utils"
+  ],
+  "SelectedNode": "\\cypress\\support\\selectors.ts",
+  "PreviewInSolutionExplorer": false
+}
