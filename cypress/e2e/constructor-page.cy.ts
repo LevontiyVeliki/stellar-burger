@@ -46,13 +46,14 @@ describe('Проверка работоспособности страницы -
         cy.get(SELECTORS.INGREDIENT_CONSTRUCTOR_ITEM).should('exist');
     });
 
+
     it('Проверка открытия и закрытия модального окна одного ингредиента - через оверлей', () => {
         const ingredientName = 'Краторная булка N-200i';
 
         cy.get(SELECTORS.MODAL_INGREDIENT).should('not.exist');
         cy.get(SELECTORS.BUN_0).should('exist').click();
         cy.get(SELECTORS.MODAL_INGREDIENT).should('be.visible');
-        cy.get(`${SELECTORS.MODAL_INGREDIENT} > .text_type_main-medium`).should(
+        cy.get(`${SELECTORS.MODAL_INGREDIENT} .text_type_main-medium`).should(
             'contain.text',
             ingredientName
         );
@@ -68,7 +69,7 @@ describe('Проверка работоспособности страницы -
         cy.get(SELECTORS.MODAL_INGREDIENT).should('not.exist');
         cy.get(SELECTORS.BUN_0).should('exist').click();
         cy.get(SELECTORS.MODAL_INGREDIENT).should('be.visible');
-        cy.get(`${SELECTORS.MODAL_INGREDIENT} > .text_type_main-medium`).should(
+        cy.get(`${SELECTORS.MODAL_INGREDIENT} .text_type_main-medium`).should(
             'contain.text',
             ingredientName
         );

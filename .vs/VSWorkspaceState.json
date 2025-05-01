@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\cypress",
-    "\\cypress\\support",
+    "\\cypress\\e2e",
     "\\src",
     "\\src\\components",
-    "\\src\\images",
-    "\\src\\pages",
+    "\\src\\components\\ui",
+    "\\src\\components\\ui\\modal",
     "\\src\\services",
     "\\src\\stories",
     "\\src\\utils"
   ],
-  "SelectedNode": "\\cypress\\support\\selectors.ts",
+  "SelectedNode": "\\src\\components\\ui\\modal\\modal.module.css",
   "PreviewInSolutionExplorer": false
 }
